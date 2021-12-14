@@ -1,0 +1,21 @@
+{   
+   
+    "projectId": "vx15g4",
+    "defaultCommandTimeout": 50000,
+    "pageLoadTimeout": 50000,
+    "env":{
+        "emlogin":"https://etesting.futureplan.tech/login",
+         "url":"https://etesting.futureplan.tech/employees/create"
+   
+        
+    },
+    "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+        "reportDir": "cypress/report",
+        "charts": true,
+        "reportPageTitle": "Emtesting automation testing report",
+        "embeddedScreenshots" : true
+
+      }
+  }  
+     
